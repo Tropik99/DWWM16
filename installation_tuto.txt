@@ -17,3 +17,33 @@ git add -A
 git commit -m "Premiers essais"
 	Envoyer sur le dépot en ligne
 git push
+
+	"Travailler à plusieurs sur le même projet !"
+
+ 	Master branche finale du projet
+	Créer une autre branche pour le developpement
+git branch dev ("dev nom de la branche").
+
+	Ensuite pour se rendre sur cette branche
+git checkout dev ("aller sur la branche dev")
+	puis executer la commande
+git push --set-upstream origin dev (pour permettre d'envoyer le contenu en local sur cette nouvelle branche en ligne.)
+
+git fetch (pour récupérer tout le contenu qui est en ligne)
+	Pour se placer dessus taper la commande :
+git checkout dev
+	Si travail à plusieurs créer les branches nécessaires, et ensuite pour réunir les ces branches sur une 	la branche dev, il faut utiliser la commande :
+
+git merge
+
+ Pour finaliser la branche dev sur master utiliser aussi la commande
+
+git merge
+
+
+
+
+
+
+
+
