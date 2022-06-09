@@ -1,0 +1,19 @@
+git init (dossier dans lequel on travail)
+	créer copie en local (git bash)
+git clone https://github.com/Mondepot/test.git
+	copie en local sur sa machine.
+Aller dans son dossier machine
+  cd MonDossierProjet/
+	
+git add (ajouter un fichier ou l'ensemble des fichiers)
+	Faire un commit (préparer un pack d'envoie)
+git commit -m (description de l'envoi)
+	puis procéder au dépot final vers le serveur distant
+git push
+
+	En fin de journée avant de quitter son poste on prépare les fichiers 	à envoyer
+git add -A
+	Préparer l'envoie avec un descriptif de version par ex
+git commit -m "Premiers essais"
+	Envoyer sur le dépot en ligne
+git push
